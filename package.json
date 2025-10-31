@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "Milkov Alex",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^17.2.3",
