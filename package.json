@@ -13,7 +13,16 @@
   "license": "ISC",
   "author": "Milkov Alex",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "zod": "^4.1.12"
